@@ -1,25 +1,3 @@
-# import cv2
-# import pyautogui as p
-# import numpy as np
-
-# rs=p.size()
-# inp = input("enter the path")
-# fps=30.0
-# fourcc = cv2.VideoWriter_fourcc(*"xvid")
-# output= cv2.VideoWriter(inp,fourcc,fps,rs)
-# cv2.namedwindow("live_recording",cv2.WINDOW_NORMAL)
-# cv2.resizeWindow("live_recording",(600,500))
-# while True:
-#     img=p.screenshot()
-#     f=np.array(img)
-#     f=cv2.cvtColor(f,cv2.COLOR_BGR2RGB)
-#     output.write(f)
-#     cv2.imshow("live-recording",f)
-#     if cv2.waitKey(1)==ord('q'):
-#         break
-# output.release()
-# cv2.destroyAllWindows()
-
 from tkinter import *
 
 import cv2
